@@ -15,6 +15,9 @@
 		AA2EEE9E1CA4CCF900FA56F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EEE9C1CA4CCF900FA56F9 /* LaunchScreen.storyboard */; };
 		AA2EEEA91CA4CCFA00FA56F9 /* xib_storyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EEEA81CA4CCFA00FA56F9 /* xib_storyboardTests.m */; };
 		AA2EEEB41CA4CCFA00FA56F9 /* xib_storyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EEEB31CA4CCFA00FA56F9 /* xib_storyboardUITests.m */; };
+		AA2EEEC31CA4CD0C00FA56F9 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EEEC21CA4CD0C00FA56F9 /* TestView.m */; };
+		AA2EEEC51CA4CD1600FA56F9 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2EEEC41CA4CD1600FA56F9 /* TestView.xib */; };
+		AA8AC38E1CA4E15D0021A3BD /* TestImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC38D1CA4E15D0021A3BD /* TestImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		AA2EEEAF1CA4CCFA00FA56F9 /* xib&storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xib&storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2EEEB31CA4CCFA00FA56F9 /* xib_storyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xib_storyboardUITests.m; sourceTree = "<group>"; };
 		AA2EEEB51CA4CCFA00FA56F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2EEEC11CA4CD0C00FA56F9 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		AA2EEEC21CA4CD0C00FA56F9 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		AA2EEEC41CA4CD1600FA56F9 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		AA8AC38C1CA4E15D0021A3BD /* TestImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImageView.h; sourceTree = "<group>"; };
+		AA8AC38D1CA4E15D0021A3BD /* TestImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				AA2EEE9C1CA4CCF900FA56F9 /* LaunchScreen.storyboard */,
 				AA2EEE9F1CA4CCF900FA56F9 /* Info.plist */,
 				AA2EEE8E1CA4CCF900FA56F9 /* Supporting Files */,
+				AA2EEEC11CA4CD0C00FA56F9 /* TestView.h */,
+				AA2EEEC21CA4CD0C00FA56F9 /* TestView.m */,
+				AA2EEEC41CA4CD1600FA56F9 /* TestView.xib */,
+				AA8AC38C1CA4E15D0021A3BD /* TestImageView.h */,
+				AA8AC38D1CA4E15D0021A3BD /* TestImageView.m */,
 			);
 			path = "xib&storyboard";
 			sourceTree = "<group>";
@@ -243,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2EEEC51CA4CD1600FA56F9 /* TestView.xib in Resources */,
 				AA2EEE9E1CA4CCF900FA56F9 /* LaunchScreen.storyboard in Resources */,
 				AA2EEE9B1CA4CCF900FA56F9 /* Assets.xcassets in Resources */,
 				AA2EEE991CA4CCF900FA56F9 /* Main.storyboard in Resources */,
@@ -270,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2EEEC31CA4CD0C00FA56F9 /* TestView.m in Sources */,
+				AA8AC38E1CA4E15D0021A3BD /* TestImageView.m in Sources */,
 				AA2EEE961CA4CCF900FA56F9 /* ViewController.m in Sources */,
 				AA2EEE931CA4CCF900FA56F9 /* AppDelegate.m in Sources */,
 				AA2EEE901CA4CCF900FA56F9 /* main.m in Sources */,
@@ -498,6 +514,7 @@
 				AA2EEEBA1CA4CCFA00FA56F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA2EEEBB1CA4CCFA00FA56F9 /* Build configuration list for PBXNativeTarget "xib&storyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				AA2EEEBD1CA4CCFA00FA56F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA2EEEBE1CA4CCFA00FA56F9 /* Build configuration list for PBXNativeTarget "xib&storyboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +532,7 @@
 				AA2EEEC01CA4CCFA00FA56F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

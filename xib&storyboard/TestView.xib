@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestView">
+            <connections>
+                <outlet property="backgrounView" destination="FdT-wf-V9c" id="wVm-Vh-NX3"/>
+                <outlet property="testLab" destination="w6a-wQ-M1Y" id="NlK-eO-YG3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="580c7f8419ffc514ef7924b0d4ef4177" translatesAutoresizingMaskIntoConstraints="NO" id="FdT-wf-V9c">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="啦啦啦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6a-wQ-M1Y">
+                    <rect key="frame" x="126" y="89" width="68" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="6r6-5D-cXu"/>
+                        <constraint firstAttribute="width" constant="68" id="mRW-hP-TcY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FdT-wf-V9c" secondAttribute="trailing" id="0KC-gp-ucL"/>
+                <constraint firstItem="w6a-wQ-M1Y" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5Y1-WE-Eh4"/>
+                <constraint firstItem="FdT-wf-V9c" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Gdq-6v-Nhf"/>
+                <constraint firstItem="w6a-wQ-M1Y" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Nc9-iH-tka"/>
+                <constraint firstAttribute="bottom" secondItem="FdT-wf-V9c" secondAttribute="bottom" id="U43-IY-kas"/>
+                <constraint firstItem="FdT-wf-V9c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cSL-LS-m3f"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="580c7f8419ffc514ef7924b0d4ef4177" width="1280" height="800"/>
+    </resources>
+</document>
